@@ -8,7 +8,7 @@ getLocation.addEventListener('click', evt=>{
             let latitude = position.coords.latitude;
             let longitude = position.coords.longitude;
             
-            console.log(latitude,longitude);
+            alert(latitude,longitude);
             
         },error=>{
             console.log(error.code);
